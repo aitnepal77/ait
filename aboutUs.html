@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>AIT</title>
+</head>
+<body id="body">
+    <script src="./function.js"></script>
+
+    <section class="dashboard">
+        <div class="header" id="header"></div>
+        <script>placeNavbar(2)</script>
+        <script>navbar(2)</script><!-- Header -->
+            <div class="hero">
+                <div class="heroLeft">
+                    <div class="aboutUs">About Us</div>
+                    <div class="description">AIMS Initiation of Technology (AIT) is an IT company that specializes in graphics design, web design, content creation and other related services. We are owned by AIMS Business Model.<br><br>
+                        We are committed to providing our clients with excellent result by using the latest technology and knowledge. We have a team of talented professionals who work together to achieve your goals and make your business grow.</div>
+                </div>
+                <div class="heroRight aboutUsheroRight">
+                    <div class="imageCircle" style="width: 20rem" onclick="memberView(0)">
+                        <img src="./assets/members/0.png" alt="Chairperson T.R. Dhakal">
+                        <div class="titleOfImage">
+                            <p>Chairperson <br>T.R. Dhakal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery fullScr" id="gallery">
+            </div>
+    </section>
+    <section>
+        <div class="viewer navBox" id="navBox">
+            <div class="navBoxInnerContainer" id="navBoxInnerContainer" style="width:100%; height:100%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                
+            </div>
+        </div>
+    </section>
+    <div class="fullScr">
+    <section class="centerOnFlex viewer" id="viewer">
+        <div class="closeButton" onclick="closeViewer()">x</div>
+            <div id="text" class="comments"></div>
+    </section>
+
+
+</body>
+<script src="./functionAboutUs.js"></script>
+</html>

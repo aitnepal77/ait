@@ -1,0 +1,34 @@
+[
+	{
+        "id": 1,
+		"image": "./demo/1.jpg",
+		"title": "Broucher design #1",
+		"aurthor": "Ritima TiriMiritima",
+		"category": "Broucher",
+        "description": "This is a broucher design."
+	},
+    {
+        "id": 2,
+		"image": "./demo/2.jpg",
+		"title": "Broucher Design #2",
+		"aurthor": "Ritima TiriMiritima",
+		"category": "Broucher",
+        "description": "This is a second broucher design."
+	},
+    {
+        "id": 3,
+		"image": "./demo/3.jpg",
+		"title": "Identity card design #1",
+		"aurthor": "Biplove Shrestha",
+		"category": "Identity card",
+        "description": "This is a design for Identity card."
+	},
+    {
+        "id": 4,
+		"image": "./demo/4.jpg",
+		"title": "Identity card design #2",
+		"aurthor": "Biplove Shrestha",
+		"category": "Identity card",
+        "description": "This is final design for Identity card for AIMS Academy."
+	}
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plugins/dropdown.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>AIT</title>
+</head>
+<body>
+    <script src="./function.js"></script>
+    <section class="dashboard">
+        <div class="header" id="header">
+            <script>placeNavbar(1)</script>
+            <script>navbar(1)</script>
+        </div> <!-- Header -->
+        <div class="searchContainer">
+            <input type="text" name="searchInGallery" id="searchInGallery" class="textBox" onkeyup="search()">
+            <div class="isFlex flexRow flexGap">
+                <div class="custom-select" style="width:200px;">
+                    <select name="filter" id="filter" class="select">
+                        <option value="all">All</option>
+                        <option value="all">All</option>
+                        <option value="Broucher">Broucher</option>
+                        <option value="Calander">Calander</option>
+                        <option value="Congratulation card">Congratulation card</option>
+                        <option value="Identity card">Identity card</option>
+                        <option value="Invitation card">Invitation card</option>
+                        <option value="Flex">Flex</option>
+                        <option value="Others">Others</option>
+                        <option value="Web">Web</option>
+                        <option value="Wishing card">Wishing Card</option>
+                    </select>
+                </div>
+                <div class="buttonPrimary" onclick="filter()">Filter</div>
+            </div>
+        </div>
+        <div class="gallery" id="gallery">
+      
+        </div>
+    </section>
+    <section class="viewer" id="viewer">
+        <div class="closeButton" onclick="closeViewer()">x</div>
+        <img id="viewerCanvas" src="" class="viewerCanvas" alt="Image of this">
+        <div id="imageDescription" class="imageDescription"></div>
+    </section>
+    <section>
+        <div class="viewer navBox" id="navBox">
+            <div class="navBoxInnerContainer" id="navBoxInnerContainer" style="width:100%; height:100%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./function.js"></script>
+<script src="./functionSC.js"></script>
+
+<script src="./plugins/dropdown.js"></script>
+</html>
